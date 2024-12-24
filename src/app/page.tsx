@@ -1,5 +1,6 @@
 "use client";
 import RouteWrapper from "@/components/routewrapper";
+import { Button } from "@/components/ui/button";
 import {
   Select,
   SelectContent,
@@ -36,6 +37,25 @@ export default function Home() {
             <SelectItem value="chat">Chat</SelectItem>
           </SelectContent>
         </Select>
+        <h6 className="text-2xl font-semibold text-center mb-4 pt-40">
+          Login with feide
+        </h6>
+        {/*
+         * student role
+         */}
+
+        <h6 className="text-2xl font-semibold text-center mb-4 pt-4">
+          elev_no856326499_1a_1 ---  098asd
+        </h6>
+
+        <h6 className="text-2xl font-semibold text-center mb-4 pt-4 ">
+          bjorg_laererg ---  098asd
+        </h6>
+        <Button>
+          <a href="http://localhost:8000/v1/auth/feide/login-oidc">
+            Login with feide
+          </a>
+        </Button>
       </div>
     </RouteWrapper>
   );

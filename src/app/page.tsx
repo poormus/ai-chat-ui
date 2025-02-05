@@ -56,6 +56,15 @@ export default function Home() {
             Login with feide
           </a>
         </Button>
+
+        <h6 className="text-2xl font-semibold text-center mb-4 pt-4">
+          47223796
+        </h6>
+        <Button className="mt-4">
+          <a href="http://localhost:8000/v1/auth/vipps/login-oidc">
+            Vipps login
+          </a>
+        </Button>
       </div>
     </RouteWrapper>
   );
